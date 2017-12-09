@@ -16,7 +16,6 @@ int main()
 
 {
 
-	//initialize and allocate memory to load the video stream from camera
 
 	VideoCapture camera0(0);
 
@@ -32,7 +31,7 @@ int main()
 
 	//if (!camera1.isOpened()) return 1;
 
-	//get the size of video
+
 	Mat frame00;
 	camera0 >> frame00;
 
