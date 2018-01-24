@@ -38,8 +38,8 @@ int main()
 	string save_path_R = "C:\\Users\\Administrator\\Desktop\\project\\_3Dmeasurement\\bino_camera_photos\\right\\";
 	Mat images;
 	int n = 0;
-	Rect rect_left(1280, 0, 1280, 720);
-	Rect rect_right(0, 0, 1280, 720);
+	Rect rect_right(1280, 0, 1280, 720);
+	Rect rect_left(0, 0, 1280, 720);
 
 
 	inFile.open(IMAGE_LIST_FILE);
